@@ -1,0 +1,73 @@
+<quest>
+    <chapter cNum="4">
+        <geopunkt>
+            <Latitude>Lat</Latitude>
+            <Longitude>Long</Longitude>
+            <Altitude>Alt</Altitude>
+        </geopunkt>
+        <characters>
+            <character name="Eberhard" tag="E"/>
+            <character name="Georg von Barth" tag="G"/>
+        </characters>
+        <dialog>
+            
+            <plainText num="1" cTag="E" >An die Aula kann ich mich noch dumpf erinnern. 
+            Dadurch, dass es immer mehr Studenten nach Tübingen zog wurde die Alte Aula, die 
+            unter meiner Aufsicht errichtet wurde, zu klein. In der Nähe des Botanischen Gartens 
+            entstand ein Univiertel.</plainText>
+            <plainText num="2" cTag="G" >Ist sie nicht schön? 77 Meter lang, 3 Geschosse mit Mittel- 
+            und Eckrisaliten und ein Balkon auf vier römisch-dorischen Säulen...</plainText>
+            <plainText num="3" cTag="E">Ja sieht ganz nett aus. Und wer bist du?</plainText>
+            <plainText num="4" cTag="G" >Mein Name ist Georg Gottlob von Barth. Ich bin der Architekt 
+            dieses Bauwerks.</plainText>
+            <plainText num="5" cTag="E" >Dann kannst du mir doch mit Sicherheit ein wenig über die Neue Aula erzählen? 
+            Ich habe mein Gedächtnis verloren und versuche es wieder zurück zu erlangen.</plainText>
+            <plainText num="6" cTag="G">Natürlich kann ich das. Nachdem ich meine Entwürfe nach vielen Jahren endlich 
+            fertiggestellt hatte, kam es am 25. März 1841 zur Grundsteinlegung und schon 4 ½ Jahre später wurde die Neue 
+            Aula eingeweiht. Die beiden rechtwinkligen Gebäude nebenan – das Botanische Institut und das Chemische Institut 
+            – wurden bis 1846 errichtet. Und hier über dem Balkon wurde Ihre Lebensdevise „Attempto“ eingraviert, Eberhard. 
+            Eine vorzügliche Wahl wie ich finde</plainText>
+            
+            ...........
+            
+            
+            
+            
+            
+            
+                <geopunkt>
+                    <Latitude>Lat</Latitude>
+                    <Longitude>Long</Longitude>
+                    <Altitude>Alt</Altitude>
+                </geopunkt>
+            </plainText>
+            
+            <question num="4" qType="MC">
+                <text>
+                    Wer hat an der Uhr gedreht?
+                </text>
+                <antwort type="w">Pink Panther</antwort>
+                <antwort type="f">Mickey Mouse</antwort>
+                <antwort type="f">Donald Duck</antwort>
+            </question>
+            
+            <event id="EventID">
+                <geopunkt>
+                    <Latitude>Lat</Latitude>
+                    <Longitude>Long</Longitude>
+                    <Altitude>Alt</Altitude>
+                </geopunkt>
+                <charactere>
+                    <character tag="A" emo="0"/>
+                    <character tag="B" emo="1"/>
+                </charactere>
+            </event>
+            
+            <minispiel mId="ID">
+                <gewonnenText>Yay! Du hast {0} Punkte bekommen.</gewonnenText>
+                <verlorenText>Schade...</verlorenText>
+            </minispiel>
+            
+        </dialog>
+    </chapter>
+</quest>
